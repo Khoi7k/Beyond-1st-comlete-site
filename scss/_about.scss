@@ -1,0 +1,101 @@
+.about{
+    padding: 0 120px;
+    margin: 0 auto;
+}
+.service{
+    padding: 0 66px;
+    &-content{
+        padding: 0 244px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        max-width: 620px;
+        flex-shrink: 0;
+    }
+    &-title{
+        font-weight: 600;
+    }
+    &-heading{
+        line-height: 60px;
+        margin-top: 25px;
+        margin-bottom: 32px ;
+    }
+    &-desc{
+        font-size: 13px;
+    }
+    &-cards{
+        margin-top: 73px;
+        display: flex;
+        gap: 0 33px;
+        &-items{
+            max-width: 334px;
+            text-align: center;
+            border: 2px solid #EDEFF7;
+            border-radius: 13px;
+            padding: 40px 15px 87px 15px;
+            transition: all 0.2s linear;
+            &-search{
+                background-color: #F4F7FF;
+                max-width: 67px;
+                height: 67px;
+                display:flex;
+                border-radius: 50%;
+                justify-content: center;
+                align-items: center;
+                margin: 0 auto;
+                margin-bottom: 25px;
+                transition: all 0.2s linear;
+            }
+            & span{
+                font-weight: 600;
+                font-size: 21px;
+                color:#051441;
+            }
+            & p{
+                margin-top: 19px;
+                padding: 0 30px;
+                font-size: 14px;
+                color:#7F8EA1;
+                line-height: 21px;
+            }
+            &:hover{
+                box-shadow: 0px 24px 60px rgba(94, 122, 148, 0.1);
+                border-color: transparent;
+            }
+            &:hover .service-cards-items-search{
+                background-color: #5A73E5;
+            }
+            &:hover .service-cards-items-search-icon{
+                filter: brightness(10);
+            }
+        }
+      
+    }
+}
+.who{
+    display: flex;
+    margin-top: 76px;
+    &-img{
+        max-width: 601px;
+        margin-right: 87px;
+    }
+    &-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 25px;
+    }
+    &-title{
+        font-weight: 600;
+    }
+    &-heading{
+        font-weight: 700;
+        line-height: 50px;
+        font-size: 40px;
+    }
+    &-btn{
+        margin-top: 12px;
+        max-width: 100px;
+    }
+}
+

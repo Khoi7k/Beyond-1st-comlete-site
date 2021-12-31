@@ -1,0 +1,16 @@
+.mission{
+    background-color: #E2E7FB;
+    margin: -40px;
+    display:flex;
+    justify-content: space-between;
+    padding: 117px 155px;
+    padding-bottom: 162px;
+    &-content{
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+    }
+    &-img{
+        transform: translateY(20%);
+    }
+}

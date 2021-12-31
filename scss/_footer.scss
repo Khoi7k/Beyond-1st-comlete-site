@@ -1,0 +1,40 @@
+.footer{
+    background-color: #052347;
+    color:#AFACCD;
+    padding: 105px 0 0 170px;
+    margin-bottom: 0;
+    &-main{
+        display: flex;
+    }
+    &-main
+    &-content{
+        max-width: 235px;
+        margin-right: 213px;
+        &-desc{
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 22px;
+            margin-top: 25px;
+            margin-bottom: 27px;
+        }
+    }
+    &-info{
+        display: flex;
+        gap: 0 80px;
+        &-title{
+            color: #D9E1F0;
+            font-weight: 500;
+            font-size: 18px;
+            padding-bottom: 25px;
+        }
+        &-item{
+            margin-bottom: 20px;
+            font-size: 14px;
+            font-weight: 400;
+        }
+    }
+    &-copyright{
+        margin-top: 50px;
+        margin-bottom: 30px;
+    }
+}
